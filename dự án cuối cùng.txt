@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khám phá Đà Nẵng</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f7ff;
+            color: #333;
+        }
+
+        header {
+            background-color: #087fbd;
+            color: white;
+            text-align: center;
+            padding: 35px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        main {
+            width: 90%;
+            max-width: 1100px;
+            margin: 30px auto;
+        }
+
+        section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #087fbd;
+        }
+
+        ul {
+            line-height: 2;
+        }
+
+        .images {
+            display: flex;
+            gap: 20px;
+        }
+
+        .images img {
+            width: 32%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .link {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #087fbd;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .link:hover {
+            background-color: #055a85;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #12344d;
+            color: white;
+            padding: 20px;
+        }
+
+        @media (max-width: 700px) {
+            .images {
+                flex-direction: column;
+            }
+
+            .images img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <!-- Phần đầu trang -->
+    <header>
+        <h1>Khám phá Đà Nẵng</h1>
+        <p>Thành phố biển đáng sống của Việt Nam</p>
+    </header>
+
+
+    <!-- Nội dung chính -->
+    <main>
+
+        <!-- Giới thiệu -->
+        <section>
+            <h2>Giới thiệu về Đà Nẵng</h2>
+
+            <p>
+                Đà Nẵng là một thành phố biển nổi tiếng của Việt Nam.
+                Thành phố sở hữu nhiều bãi biển đẹp, cảnh quan thiên nhiên
+                hấp dẫn và nhiều địa điểm du lịch nổi tiếng.
+            </p>
+
+            <p>
+                Đây là một điểm đến phù hợp cho những chuyến du lịch,
+                nghỉ dưỡng và khám phá văn hóa.
+            </p>
+        </section>
+
+
+        <!-- Danh sách ít nhất 3 mục -->
+        <section>
+            <h2>Địa điểm nổi tiếng</h2>
+
+            <ul>
+                <li>Bà Nà Hills</li>
+                <li>Cầu Rồng</li>
+                <li>Bãi biển Mỹ Khê</li>
+                <li>Ngũ Hành Sơn</li>
+            </ul>
+        </section>
+
+
+        <!-- Ít nhất 3 hình ảnh -->
+        <section>
+            <h2>Hình ảnh Đà Nẵng</h2>
+
+            <div class="images">
+
+                <img src="https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=900&q=80"
+                    alt="Phong cảnh Đà Nẵng">
+
+                <img src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=900&q=80"
+                    alt="Phong cảnh Việt Nam">
+
+                <img src="https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?auto=format&fit=crop&w=900&q=80"
+                    alt="Biển Việt Nam">
+
+            </div>
+        </section>
+
+
+        <!-- Liên kết bên ngoài -->
+        <section>
+            <h2>Tìm hiểu thêm</h2>
+
+            <p>
+                Bạn có thể tìm hiểu thêm về du lịch Đà Nẵng
+                và các địa điểm nổi tiếng tại website bên dưới:
+            </p>
+
+            <a class="link" href="https://vietnam.travel/" target="_blank">
+                Khám phá Việt Nam
+            </a>
+        </section>
+
+    </main>
+
+
+    <!-- Chân trang -->
+    <footer>
+        <p>© 2026 - Website khám phá Đà Nẵng</p>
+    </footer>
+
+</body>
+
+</html>
